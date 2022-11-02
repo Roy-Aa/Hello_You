@@ -133,7 +133,7 @@ def grens2():
 
     if choice5 == "B":
         print("Douane: Als u geen legitimatiebewijs kan tonen mag u niet door.")
-        sleep(2)
+        sleep(3)
         print("Je besluit het toch te geven omdat je echt uit het land moet...")
         reis()
 
@@ -164,6 +164,7 @@ def tanken():
     ⠀⠀⠀⠁⠁⠀⠀⠀⢉⠉⠉⠉⠀⢀⠀⠉⠉⠉⠀⠀⢀⠀⠉⠀⠉⠙⠊⠹⠚⠭⣝⡾⢙⣎⢓⢮⡱⢎⠶⣩⣛⢭⡛⠴⡶⣶⢲⢦⣤⢤⣤⣴⣶⣲⢫⢏⡵⣌⢏⣬⠣⡟⣶⡹⣫
     ⠀⠄⠀⠠⠀⠀⠂⠄⠀⠀⢀⡀⠐⡀⠀⠀⠠⠐⠠⠀⠀⠀⠀⠐⠀⠀⠀⠂⠀⠄⡀⠠⠁⣄⠩⢳⣵⡫⡓⣵⢪⡖⣳⡫⣕⠞⡭⡚⢌⣳⢏⠖⣞⡕⢮⣞⣱⣎⣳⣚⡽⣜⣧⢟⡽⠀  
         """)
+        print("Je gaat tanken en rijd door naar de grens")
         grens2()
 
     if tanken == "B":
@@ -191,6 +192,9 @@ def grens():
         tanken()
         ###
 
+
+
+#### START
 while True:
     print("""
         
